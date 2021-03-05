@@ -9,6 +9,11 @@ public class EndWith {
 		System.out.println("end with .com = "+a.endsWith(".com"));
 		System.out.println(a.startsWith("niket",1));
 		System.out.println(a.startsWith("i",1));
+		
+		String filePath="";
+		if(a.endsWith(".com")) {
+			
+		}
 	}
 
 }

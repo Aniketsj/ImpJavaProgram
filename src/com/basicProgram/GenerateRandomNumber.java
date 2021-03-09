@@ -9,7 +9,7 @@ public class GenerateRandomNumber {
 		Random random = new Random();
 		int a = 0;
 		for(int i=1;i<=10;i++){
-		 a = random.nextInt(50);
+		 a = random.nextInt(500);
 		 System.out.println(a);
 		}
 		
@@ -24,6 +24,10 @@ public class GenerateRandomNumber {
 		for(int i=0;i<=255;i++){
 			System.out.println("Ascii value of "+(char)i+" = "+i);
 		}
+		
+		char a1= 'a';
+		int a2 = a1;
+		System.out.println(a2);
 
 	}
 

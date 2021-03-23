@@ -7,12 +7,12 @@ public class ArmstrongNumber {
 		int temp = no;
 		while (no > 0) {
 			rem = no % 10;
-			System.out.println("rem ==============" + rem);
+		
 			no = no / 10;
-			System.out.println("no ===============" + no);
+		
 			sum = sum + (rem * rem * rem);
-			System.out.println("sum = ============" + sum);
-			System.out.println("**************************************");
+		
+		
 		}
 		System.out.println(sum);
 		System.out.println(no);

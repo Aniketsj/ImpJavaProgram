@@ -10,11 +10,11 @@ public class RevNumber {
 		String a =String.valueOf(no);
 		System.out.println("int to string");
 		for(int i=a.length()-1;i>=0;i--){
-			System.out.println(a.charAt(i));
+			System.out.print(a.charAt(i));
 		}
 		
 		System.out.println("no");
-		while(no!=0){
+		while(no>0){
 		rem = no%10;
 		rev=rev*10+rem;
 		no=no/10;

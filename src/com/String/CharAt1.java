@@ -19,7 +19,7 @@ public class CharAt1 {
 					
 				}
 				
-				if(i%2!=0){
+				else{
 					System.out.println("odd character is= "+name.charAt(i));
 				}
 			}

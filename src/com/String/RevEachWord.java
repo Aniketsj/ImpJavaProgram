@@ -4,7 +4,7 @@ public class RevEachWord {
 
 	public static void main(String[] args) {
 
-		String str = "Aniket Jadhav Test";
+		String str = "Aniket Jadhav";
 		char[] ch = str.toCharArray();
 		int count = 0;
 		int nextCount = 0;

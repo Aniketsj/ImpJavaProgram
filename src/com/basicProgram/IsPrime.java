@@ -10,7 +10,7 @@ public class IsPrime {
 		}
 		
 		for(int i=2;i<num;i++){
-			System.out.println(i);
+			
 			if(num%i==0){
 				System.out.println("num i="+i);
 				return false;

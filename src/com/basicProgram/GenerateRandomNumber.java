@@ -12,15 +12,17 @@ public class GenerateRandomNumber {
 		 a = random.nextInt(10);
 		 
 		 System.out.print('\t'+a);
+		 
 		}
 		
+		System.out.println("*********************************");
 		System.out.println("------------------------------");
 		char aaa = 'a';
 		int ab = aaa;
-		System.out.println(ab);
+		System.out.println("ab:="+ab);
 		char cc = 'A';
 		int aa = 'A';
-		System.out.println(aa);
+		System.out.println("aa ="+aa);
 		
 		int ch = 'a';
 		System.out.println(ch);

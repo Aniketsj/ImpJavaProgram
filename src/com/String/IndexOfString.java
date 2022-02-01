@@ -32,7 +32,7 @@ public class IndexOfString {
 		String strr = "/asds/adsad/sadas.feature";
 		
 		strr = strr.substring(strr.lastIndexOf("/")+1);
-		System.out.println(strr);
+		System.out.println("--------------"+strr);
 		
 		String strrr1 = "	AniketJadhav \n";
 		

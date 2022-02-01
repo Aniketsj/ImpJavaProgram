@@ -12,7 +12,7 @@ public class DuplicateArray {
 			for (int i = s + 1; i < arr.length; i++) {
 				if (arr[s] == arr[i]) {
 					System.out.println("Duplicate no is " + arr[s]);
-					no = arr[i];
+					
 				}
 						
 			}

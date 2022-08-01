@@ -1,4 +1,4 @@
-package com.Abstraction;
+package com.AbstractClass;
 
 public abstract class Bank {
 	public Bank() {

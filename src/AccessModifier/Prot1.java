@@ -1,4 +1,4 @@
-package com.accessmodifier;
+package AccessModifier;
 
 import AccessModifier.Prot;
 

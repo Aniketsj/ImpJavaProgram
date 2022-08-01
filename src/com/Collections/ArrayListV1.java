@@ -17,7 +17,7 @@ public class ArrayListV1 {
 		al.add("java");
 		al.add("Oracle");
 		
-		
+		Collections.addAll(al, "Arcitech","SDET");
 		
 		
 		System.out.println("--------for loop");
